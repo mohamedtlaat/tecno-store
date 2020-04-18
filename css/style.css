@@ -161,44 +161,6 @@ ol {
 	float: left;
 }
 
-.inner-header .header-right {
-	float: right;
-	line-height: 30px;
-}
-
-.inner-header .header-right img {
-	display: inline-block;
-	margin-right: 20px;
-	cursor: pointer;
-}
-
-.inner-header .header-right a {
-	display: inline-block;
-	position: relative;
-}
-
-.inner-header .header-right a img {
-	margin-right: 0;
-	margin-left: 4px;
-}
-
-.inner-header .header-right a span {
-	font-size: 11px;
-	color: #1e1e1e;
-	width: 18px;
-	height: 18px;
-	border: 2px solid #D0D7DB;
-	background: #fff;
-	display: inline-block;
-	line-height: 15px;
-	text-align: center;
-	border-radius: 50%;
-	font-weight: 600;
-	position: absolute;
-	left: -9px;
-	top: 14px;
-}
-
 .inner-header .user-access {
 	float: right;
 	margin-right: 100px;
@@ -310,9 +272,6 @@ ol {
 	display: none;
 }
 
-.slicknav_menu {
-	display: none;
-}
 /*---------------------
   Features Section
 -----------------------*/
@@ -731,10 +690,6 @@ ol {
 		display: block;
 		margin-top: 10px;
 	}
-	.inner-header .header-right {
-		margin-right: 20px;
-		margin-top: 4px;
-	}
 	.slicknav_nav ul {
 		margin: 0 0 0 0;
 	}
@@ -764,9 +719,6 @@ ol {
 	.header-section {
 		padding-left: 0;
 		padding-right: 0;
-	}
-	.inner-header .header-right {
-		margin-right: 0;
 	}
 	.features-box .single-box-item.first-box .box-text {
 		right: 9px;
